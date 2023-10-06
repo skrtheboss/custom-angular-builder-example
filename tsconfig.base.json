@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@devkit/custom-angular-build": [
+        "devkit/custom-angular-build/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
